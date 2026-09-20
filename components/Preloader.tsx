@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import preloaderLogo from '../LInier ds copy11.png';
 
 interface PreloaderProps {
   onComplete: () => void;
@@ -189,8 +190,8 @@ const Preloader: React.FC<PreloaderProps> = ({ onComplete }) => {
                    aria-label="Linier Studio Logo"
                    className="block w-[48vw] h-[48vw] md:w-[30vw] md:h-[30vw] min-w-[170px] min-h-[170px] max-w-[350px] max-h-[350px] bg-neutral-900 dark:bg-white"
                    style={{
-                     WebkitMaskImage: 'url("/LInier%20ds%20copy11.png")',
-                     maskImage: 'url("/LInier%20ds%20copy11.png")',
+                     WebkitMaskImage: `url("${preloaderLogo}")`,
+                     maskImage: `url("${preloaderLogo}")`,
                      WebkitMaskSize: '150% auto',
                      maskSize: '150% auto',
                      WebkitMaskPosition: '50% 35%',
