@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImage from '../1.jpeg';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Link } from 'react-router-dom';
@@ -34,7 +35,7 @@ const AboutHeroAndra: React.FC = () => {
           <div className="w-full md:w-[55%] relative">
              <div className="w-full aspect-[4/3] md:aspect-auto md:h-[75vh] relative overflow-hidden">
                 <img 
-                   src={`${import.meta.env.BASE_URL}1.jpeg`}
+                   src={heroImage}
                    alt="Architecture Detail" 
                    className="w-full h-full object-cover"
                 />

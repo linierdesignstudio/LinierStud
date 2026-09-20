@@ -1,5 +1,8 @@
 
 import React, { useRef } from 'react';
+import architectureImage from '../R2.jpg';
+import interiorImage from '../2.jpeg';
+import constructionImage from '../cons.png';
 import { motion, useInView } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -7,9 +10,9 @@ const PhilosophySection: React.FC = () => {
   const { t } = useLanguage();
   
   const images = [
-    `${import.meta.env.BASE_URL}R2.jpg`, // ARCHITECTURE / FORM
-    `${import.meta.env.BASE_URL}2.jpeg`, // INTERIOR
-    `${import.meta.env.BASE_URL}cons.png`  // CONSTRUCTION
+    architectureImage, // ARCHITECTURE / FORM
+    interiorImage, // INTERIOR
+    constructionImage  // CONSTRUCTION
   ];
 
   return (

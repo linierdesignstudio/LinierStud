@@ -1,5 +1,6 @@
 
 import React, { useRef, useState, useEffect } from 'react';
+import logoImage from '../LInier-logo-transparent.png';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
@@ -109,7 +110,7 @@ const Footer: React.FC = () => {
               <div>
                 <div className="mb-12 flex flex-col items-start gap-4">
                   <img
-                    src={`${import.meta.env.BASE_URL}LInier-logo-transparent.png`}
+                    src={logoImage}
                     alt="Linier Studio logo"
                     className="h-[140px] sm:h-[170px] md:h-[200px] w-auto object-contain"
                   />
