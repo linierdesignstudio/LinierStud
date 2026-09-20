@@ -12,7 +12,7 @@ import ScrollHighlightText from '../components/ScrollHighlightText';
 const SERVICE_IMAGES: Record<string, string> = {
   'arch_int': 'https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=1600&auto=format&fit=crop',
   'design_build': 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop',
-    'construction': "/cons.png",
+    'construction': `${import.meta.env.BASE_URL}cons.png`,
   'renovation': 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1600&auto=format&fit=crop',
   'consultation': 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1600&auto=format&fit=crop',
   'management': 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop'

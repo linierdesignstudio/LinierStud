@@ -7,9 +7,9 @@ const PhilosophySection: React.FC = () => {
   const { t } = useLanguage();
   
   const images = [
-    "/R2.jpg", // ARCHITECTURE / FORM
-    "/2.jpeg", // INTERIOR
-    "/cons.png"  // CONSTRUCTION
+    `${import.meta.env.BASE_URL}R2.jpg`, // ARCHITECTURE / FORM
+    `${import.meta.env.BASE_URL}2.jpeg`, // INTERIOR
+    `${import.meta.env.BASE_URL}cons.png`  // CONSTRUCTION
   ];
 
   return (

@@ -58,7 +58,7 @@ const Home: React.FC = () => {
     <section className="sticky top-0 min-h-[100svh] h-[100svh] md:h-[100vh] w-full overflow-hidden flex flex-col justify-center md:justify-end pb-8 sm:pb-12 md:pb-24 px-4 sm:px-6 md:px-12 z-0">
         <motion.div style={{ scale: heroScale, opacity: heroOpacity }} className="absolute inset-0 z-0">
             <img
-                src="/1.jpeg"
+                src={`${import.meta.env.BASE_URL}1.jpeg`}
                 alt="Linier Studio architecture hero"
                 className="w-full h-full object-cover"
             />

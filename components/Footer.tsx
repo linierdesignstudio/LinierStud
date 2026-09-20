@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
               <div>
                 <div className="mb-12 flex flex-col items-start gap-4">
                   <img
-                    src="/LInier-logo-transparent.png"
+                    src={`${import.meta.env.BASE_URL}LInier-logo-transparent.png`}
                     alt="Linier Studio logo"
                     className="h-[140px] sm:h-[170px] md:h-[200px] w-auto object-contain"
                   />
